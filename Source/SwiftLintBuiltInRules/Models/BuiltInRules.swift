@@ -111,6 +111,7 @@ public let builtInRules: [any Rule.Type] = [
     LowerACLThanParentRule.self,
     MarkRule.self,
     MissingDocsRule.self,
+    MissingDotSwiftUIModifierRule.self,
     ModifierOrderRule.self,
     MultilineArgumentsBracketsRule.self,
     MultilineArgumentsRule.self,

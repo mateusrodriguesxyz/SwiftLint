@@ -656,6 +656,12 @@ class MissingDocsRuleGeneratedTests: SwiftLintTestCase {
     }
 }
 
+class MissingDotSwiftUIModifierRuleGeneratedTests: SwiftLintTestCase {
+    func testWithDefaultConfiguration() {
+        verifyRule(MissingDotSwiftUIModifierRule.description)
+    }
+}
+
 class ModifierOrderRuleGeneratedTests: SwiftLintTestCase {
     func testWithDefaultConfiguration() {
         verifyRule(ModifierOrderRule.description)
